@@ -13,8 +13,12 @@ namespace TrabajoFinal
         {
             
                 Label1.Text = Request.Params["txtvariables"];
-            Label2.Text = Request.Params["txtrestricciones"];
-                
+
+
+
+                int restricciones = int.Parse(Request.Params["txtrestricciones"]);
+            Label1.Text = restricciones.ToString();
+                    
             
         }
     }
