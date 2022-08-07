@@ -11,10 +11,11 @@ namespace TrabajoFinal
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            if (Request.Params["parametros"] != null)
-            {
-                Label1.Text = Request.Params["parametros"];
-            }
+            
+                Label1.Text = Request.Params["txtvariables"];
+            Label2.Text = Request.Params["txtrestricciones"];
+                
+            
         }
     }
 }

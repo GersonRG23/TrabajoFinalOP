@@ -28,7 +28,7 @@ namespace TrabajoFinal
 
                 case 1:
                     {
-                        Response.Redirect("Grafico.aspx?parametros=" + txtvar.Text+"Grafico");
+                        Response.Redirect("Grafico.aspx?txtvariables=" + txtvar.Text+"&txtrestricciones="+txtrest.Text);
                     }
                     break;
             }
