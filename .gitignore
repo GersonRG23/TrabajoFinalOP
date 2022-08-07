@@ -6,3 +6,7 @@ TrabajoFinal/obj/Debug/TrabajoFinal.csproj.FileListAbsolute.txt
 TrabajoFinal/obj/Debug/TrabajoFinal.csproj.CoreCompileInputs.cache
 *.cache
 TrabajoFinal/Grafico.aspx.designer.cs
+*.config
+*.dll
+*.pdb
+TrabajoFinal/.vs/TrabajoFinal/v16/.suo
