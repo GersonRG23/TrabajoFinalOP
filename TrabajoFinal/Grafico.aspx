@@ -6,19 +6,20 @@
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title></title>
-    <style type="text/css">
-        #form1 {
-            font-weight: 700;
-        }
-    </style>
 </head>
 <body>
     <form id="form1" runat="server">
-        <asp:Label ID="Label2" runat="server" Text="Función:"></asp:Label>
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
-        <asp:Label ID="Label3" runat="server" Text="X1"></asp:Label>
-        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
-        <asp:Label ID="Label4" runat="server" Text="X2"></asp:Label>
+        <div>
+        </div>
+        <br />
+        <br />
+        <asp:Label ID="Label1" runat="server" Font-Bold="False" Text="Cual es la función objetivo"></asp:Label>
+        <asp:DropDownList ID="tipfun" runat="server" AutoPostBack="True">
+            <asp:ListItem Enabled="False">Elige una opción</asp:ListItem>
+            <asp:ListItem>Maximizar</asp:ListItem>
+            <asp:ListItem>Minimizar</asp:ListItem>
+        </asp:DropDownList>
+        <asp:TextBox ID="txtfun" runat="server"></asp:TextBox>
     </form>
 </body>
 </html>
